@@ -24,6 +24,15 @@ img {
     max-width: 1170px;
     margin: auto;
 }
+.btn{
+    border: none;
+    padding: 16px 28px;
+    background-color: var(--color);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+}
 
 /* ----------======  Navbar CSS styles  ======---------- */
 .navbar{
@@ -34,6 +43,7 @@ img {
 }
 .navbar ul{
     display: flex;
+    align-items: center;
 }
 .navbar ul li{
     display: flex;
